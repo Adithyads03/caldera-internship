@@ -10,7 +10,5 @@ MITRE Caldera is a powerful red team platform developed by MITRE for simulating 
 - Creating and executing custom **abilities** and **adversary profiles**
 - Running operations with **manual command approval**
 - Developing and testing **custom plugins**
-- Exploring Caldera’s core functionalities, including planners, facts, and links
-
-## 📁 Repository Structure
+- Exploring Caldera’s core functionalities, including planners, facts, and link
 
