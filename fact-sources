@@ -1,0 +1,44 @@
+# Fact Source: better basic
+
+## Objective
+
+Create a custom fact source named **better basic** with:
+-  At least one fact
+-  At least one rule
+
+---
+
+## Steps Performed
+
+### 1. Navigate to Configuration
+- Selected: `CONFIGURATION > Fact Sources`
+
+### 2. Created New Source
+- Clicked + Create Source
+- Renamed `New source` ➝ `better basic`
+
+---
+
+### Added Fact
+
+| Trait             | Value                           |
+|------------------|---------------------------------|
+| host.file.path   | C:\Windows\System32\calc.exe    |
+
+- Clicked **+ New Fact**
+- Entered the above values and clicked **Save**
+
+---
+
+###  Added Rule
+
+| Trait             | Rule Type | Match Value                    |
+|------------------|-----------|--------------------------------|
+| host.file.path   | ALLOW     | C:\Windows\System32\calc.exe   |
+
+- Clicked + New Rule
+- Entered the above values and clicked Save
+
+---
+
+✅ Fact source "better basic" successfully created with 1 fact and 1 rule.
